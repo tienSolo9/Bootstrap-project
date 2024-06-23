@@ -1,0 +1,420 @@
+/* banner */
+.background{
+    background: url(https://templatemo.com/templates/templatemo_535_softy_pinko/assets/images/banner-bg.png);
+    width:100%;
+    height: auto;
+    background-repeat: no-repeat;
+}
+/* end banner */
+
+/* menu */
+.menu{
+    padding-top:30px;
+    position: fixed;
+    z-index: 1000;
+    top:0;
+    width: 100%;
+}
+.menu .inner-wrap {
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 50px;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+}
+.menu .items{
+    width:75%;
+    font-size: 15px;
+    align-items: center;
+}
+
+/* end menu */
+
+/* section-1 */
+.section-1 {
+    padding-top:250px;
+    color:#fff;
+}
+.section-1 .title-1{
+    font-size:36px;
+    width:100%;
+    max-width: 500px;
+    text-align: center;
+}
+.section-1 .title-2{
+    font-size:16px;
+    width:100%;
+    max-width: 550px;
+    text-align: center;
+}
+.section-1 .btn{
+    background-color: var(--color-1);
+    border-radius: 10px 25px;
+    font-size: 13px;
+    color:#fff;
+    padding:10px 20px;
+}
+.section-1 .col-12{
+    margin-bottom: 30px;
+}
+/* end section-1 */
+
+/* section-2 */
+.section-2{
+    margin: 60px 0;
+}
+.section-2 .item{
+    background-color: #fff;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+    width:100%;
+    border-radius: 10px;
+    padding:35px 35px; 
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.section-2 .item .logo{
+    background-color: var(--color-2);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.section-2 .item .logo:hover{
+    background-color: var(--color-1);
+    transition: all 0.3s ease 0s;
+}
+.section-2 .item .title-desc{
+    max-width: 280px;
+}
+.section-2 .item .title-desc{
+    margin-top: 15px;
+}
+
+/*end section-2 */
+/* end menu */
+
+
+/* sectino-3 */
+.section-3 .row{
+    border-bottom: 1px solid rgb(226, 228, 231);
+    padding:70px 0;
+}
+.section-3 .content .title-head{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.section-3 .content .title-desc{
+    font-size:16px;
+    max-width: 450spx;
+}
+/*end sectino-3 */
+
+/* sectino-4 */
+.section-4 .row{
+    border-bottom: 1px solid rgb(226, 228, 231);
+    padding:70px 0;
+}
+.section-4 .content .title-head{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.section-4 .content .title-desc{
+    font-size:16px;
+    max-width: 450spx;
+}
+/*end sectino-4 */
+
+/* section-5 */
+.section-5{
+    background: url(https://templatemo.com/templates/templatemo_535_softy_pinko/assets/images/work-process-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    padding:100px 0;
+}
+.section-5 .title-1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-5 .title-2{
+    color: #fff;
+    max-width:530px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.section-5 .item{
+    background-color: #fff;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+    padding:20px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease 0s;
+    position: relative;
+}
+.section-5 .title-3{
+    margin-top : 20px;
+    font-weight: 300;
+    font-size: 24px;
+
+}
+.section-5 .title-4{
+    color:var(--color-text);
+    max-width:100px;
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.under{
+    position: absolute;
+    background-color: #9F70D5;
+    width:100%;
+    height: 100%;
+    border-radius: 15px;
+    top: 11px;
+    left: 11px;
+}
+.section-5 .main{
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.section-5 .main:hover{
+    margin-top: -10px;
+}
+/* end st-5 */
+
+/* section6 */
+.section-6{
+    margin-bottom: 100px;
+}
+.section-6 .title-head{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.section-6 .title-desc{
+    font-size:16px;
+    font-weight: 300;
+    text-align: center;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.section-6 .item{
+    background-color: #fff;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+.section-6 .logo{
+    text-align: center;
+    margin: 20px 0;
+}
+.section-6 .content{
+    color : var(--color-text);
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    /* max-width: 270px; */
+}
+.section-6 .logo-info{
+    border-radius: 50%;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.section-6 .name{
+    font-size:18px;
+    font-weight: 400;
+}
+.section-6 .job{
+    font-size:16px;
+    font-weight: 300px;
+    color:var(--color-1);
+}
+/*end section6 */
+
+/* section-7 */
+.section-7{
+    background: #F2F2FE;
+    padding:100px;
+}
+.section-7 .title{
+    font-size:24px;
+    font-weight: 500;
+}
+.section-7 .title-head{
+    text-align: center;
+}
+.section-7 .title-desc{
+    max-width: 500px;
+    margin:0 auto;
+    margin-bottom: 80px;
+}
+.section-7 .item{
+    background-color: #fff;
+    padding:35px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.section-7 .purchase{
+    background-color: var(--color-2);
+    border-radius: 20px;
+    padding:15px 0;
+    font-size:24px;
+    color:#fff;
+    margin:30px 0;
+}
+.section-7 .main {
+    margin-bottom: 30px;
+}
+.section-7 .main p{
+    font-size:14px;
+    font-weight: 300;
+    color:var(--color-text);
+}
+.section-7 .item-card:nth-child(2) .purchase{
+    background-color: var(--color-1);
+}
+.section-7 .item-card:nth-child(2) .main p:nth-child(4){
+    text-decoration: none;
+}
+.section-7 .item-card:nth-child(3) .main p:nth-child(n){
+    text-decoration: none;
+}
+.section-7 .main p:nth-child(n+4){
+    text-decoration: line-through;
+}
+
+/* end st7 */
+/* section-8 */
+.section-8{
+    padding:100px;
+}
+.section-8 .title-desc{
+    font-size:16px;
+    max-width: 600px;
+    margin:0 auto;
+    margin-bottom: 40px;
+}
+.section-8 .row-item{
+    padding:20px;
+}
+.section-8 img{
+    width:100%;
+}
+.section-8 .row-item .title-head{
+    font-size:16px;
+    padding:20px;
+
+}
+/* end section-8 */
+/* section-9 */
+.section-9{
+    background-color: #F2F2FE;
+    padding:100px 0;
+}
+
+.section-9 .title-desc{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.section-9 .content{
+    padding-right: 30px;
+}
+.section-9 .line-1{
+    font-weight: 500;
+    font-size:18px;
+    margin-bottom: 20px;
+}
+.section-9 .line-2{
+    max-width: 250px;
+    font-weight: 300;
+    color: var(--color-text);
+}
+.section-9 .line-3{
+    max-width: 350px;
+    font-weight: 300;
+    color: var(--color-text);
+}
+.section-9 .name,.email,.message{
+    border-radius: 20px;
+    padding:20px 15px;
+    border:0
+}
+.section-9 .input{
+    padding-left: 0;
+    margin-bottom: 25px;
+}
+.section-9 .input:nth-child(2){
+    padding-right: 0;
+}
+.section-9 .message{
+    margin-bottom: 25px;
+}
+/*end section-9 */
+
+/* footer */
+.footer{
+    background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+}
+.footer .content{
+    border-top: 1px solid rgba(250, 250, 250, 0.2);
+    color:#fff;
+    font-size: 14px;
+    font-weight: 300;
+    padding:20px 0;
+}
+.footer .row{
+    padding:40px 0;
+}
+.footer .logo{
+    color:#a759d1;
+    width:30px;
+    height: 30px;
+    background-color: #fff;
+    padding:20px;
+    margin:0 10px;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease 0s;
+}
+.footer .logo:hover{
+    background-color: var(--color-1);
+    color: #fff;
+}
+/* end footer */
+/* responsive custom */
+@media (max-width:992px) {
+    .logo-hidden{
+        display: block !important;
+        font-size: 24px;
+    }
+    .menu .items{
+        display: none !important;
+    }
+}
+@media (max-width:768px){
+    .section-9 .input{
+        padding: 0;
+    }
+    .section-9 .form{
+        margin-top: 30px;
+    }
+}
+/* end responsive custom */
+
